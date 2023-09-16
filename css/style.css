@@ -20,6 +20,15 @@ p{word-spacing: normal;}
 
 
 
+
+
+    .operexartista{
+      width: 500px;
+      height: auto;
+      margin: auto;
+    }
+
+
 .chisiamodescr{
       margin: auto;
       padding-left: 250px;
@@ -390,7 +399,7 @@ input[type="text"],
 
           .immgall{
           font-size: 15px;
-            width: 100%;
+            width: 300px;
           height: auto;}
 
 
@@ -401,7 +410,11 @@ input[type="text"],
             margin: auto;
           }
 
-
+          .operexartista{
+            width: 300px;
+            height: auto;
+            margin: auto;
+          }
     }
 
 
