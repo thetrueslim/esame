@@ -63,7 +63,7 @@ padding-bottom: 5%;
   text-align:  center;
 }
 
-    .titolocorrenti{
+.titolocorrenti{
 padding-top: 100px;
 text-align: center;
 font-size: 34px;
@@ -326,10 +326,7 @@ input[type="text"],
       }
 
 
-@media only screen and (max-width: 1000px) {
-
-
-
+      @media (max-width: 800px)  {
     .testotitolo{
       font-size: 24px;
     }
@@ -388,3 +385,5 @@ input[type="text"],
         padding: 0;}
           .socialicon{padding: 0;}
     }
+
+
