@@ -1,3 +1,5 @@
+p{letter-spacing: normal;}
+
 p{word-spacing: normal;}
 
 .testotitolo{
@@ -58,9 +60,15 @@ padding-bottom: 5%;
 
 
 .opere{
+text-align: center;
+padding-bottom: 100px;
+}
+
+
+.imgopere{
+  width: 500px;
+  height: auto;
   margin: auto;
-  padding-bottom: 50px;
-  text-align:  center;
 }
 
 .titolocorrenti{
@@ -93,7 +101,6 @@ font-family: helvetica, sans-serif;
 .immart1{text-align: center;
   font-size: 24px;
   font-family:Helvetica, sans-serif;  
-
 }
     
     .home1{
@@ -175,8 +182,6 @@ font-family:Helvetica, sans-serif;
 
   }
 
-
-
   .immart{ 
     text-align: center;
     font-size: 24px;
@@ -214,12 +219,6 @@ font-family:Helvetica, sans-serif;
     padding-top: 100px;
   }
 
-
-
-
-
-
-    
 .nomeartista{
       margin: auto;
       padding-left: 100px;
@@ -344,7 +343,11 @@ input[type="text"],
         margin: auto;
         display: block;
       }
+
+
+      .h5{text-align: left;}
       .nomeartista{
+        padding: 0;
         margin: auto;
         display: block;
       }
@@ -375,8 +378,6 @@ input[type="text"],
       .grigliartisti4{display: block;
         margin: auto;}
 
-
-
         .titolochisiamo{font-size: 24px;}
         .contattaci{font-size: 24px;}
         .chisiamodescr{font-size: 15px;
@@ -384,6 +385,23 @@ input[type="text"],
         .contatti{font-size: 15px;
         padding: 0;}
           .socialicon{padding: 0;}
+
+
+
+          .immgall{
+          font-size: 15px;
+            width: 100%;
+          height: auto;}
+
+
+
+          .imgopere{
+            width: 400px;
+            height: auto;
+            margin: auto;
+          }
+
+
     }
 
 
