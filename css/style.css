@@ -1,4 +1,6 @@
-.testotitolo{    
+p{word-spacing: normal;}
+
+.testotitolo{
   font-size: 34px;
   font-family: Helvetica, sans-serif;
   padding-top: 1%;
@@ -10,51 +12,50 @@
 
 .titolo{
   width: 100%;
-  height: 20%;
+  height: 200px;
   background:rgba(35, 33, 33, 1);
     }
 
+
+
+.chisiamodescr{
+      margin: auto;
+      padding-left: 250px;
+      font-size: 24px;
+      font-family: helvetica;
+      text-align: left;
+    }
 .contattaci{
-  padding-top: 5%;  
-  padding-left: 15%;
+  padding-top: 100px;  
   font-size: 34px;
   margin: auto;
   font-family: helvetica;
-  text-align: left;}
+  text-align: center}
 .contatti{
-  padding-top: 1%;
-  padding-left: 15%;
+  padding-top: 10px;
+  padding-left: 250px;
   margin: auto;
   font-size: 34px;
   font-family: helvetica;
   text-align: left;}
 .titolochisiamo{
-  padding-top: 2%;
+  padding-top: 100px;
   font-size: 34px;
   font-family: helvetica;
   text-align: center;
 }
 
-p{word-spacing: normal;}
-
-
 
 
 .socialicon{
 margin: auto;
-padding-top: 2%;
-padding-left: 15%;
+padding-top: 30px;
+padding-left: 250px;
 padding-bottom: 5%;
 }
 
 
-.chisiamodescr{
-  margin: auto;
-  padding-left: 15%;
-  font-size: 24px;
-  font-family: helvetica;
-  text-align: left;
-}
+
 
 .opere{
   margin: auto;
@@ -74,7 +75,7 @@ font-family: helvetica, sans-serif;
   font-family: Helvetica, sans-serif;
   text-align: left;
   text-align: justify;
-  width: 35%;
+  max-width: 600px;
   margin: auto;
   padding-bottom: 100px;
 }
@@ -109,7 +110,7 @@ font-family: helvetica, sans-serif;
         font-family: Helvetica, sans-serif;
         text-align: left;
         text-align: justify;
-        width: 50%;
+        max-width: 900px;
         padding-top: 100px;
         margin: auto;
     }
@@ -129,7 +130,7 @@ font-family: helvetica, sans-serif;
 
 
   .sopra{
-    padding-top: 5%;
+    padding-top: 100px;
     margin: auto;
     display:flex;
     flex-direction: row;
@@ -138,7 +139,7 @@ font-family: helvetica, sans-serif;
   
   
   .sotto{
-    padding-bottom: 5% ;
+    padding-bottom: 100px ;
     display:flex;
     flex-direction: row;
     margin: auto;
@@ -202,7 +203,7 @@ font-family:Helvetica, sans-serif;
     margin: auto;
     flex-direction: row;
     max-width: 600px;
-    padding-bottom: 5%;}
+    padding-bottom: 100px;}
 
 
   .h5
@@ -221,7 +222,7 @@ font-family:Helvetica, sans-serif;
     
 .nomeartista{
       margin: auto;
-      padding-left: 10%;
+      padding-left: 100px;
       font-size: 34px;
       font-family:Helvetica, sans-serif;
     }
@@ -229,7 +230,7 @@ font-family:Helvetica, sans-serif;
     footer {
       background-color: rgba(35, 33, 33, 1);
       color: #fff;
-      padding: 70px;
+      padding: 50px;
       text-align: center;
   }
 
@@ -325,7 +326,7 @@ input[type="text"],
       }
 
 
-@media only screen and (max-width: 1080px) {
+@media only screen and (max-width: 1000px) {
 
 
 
@@ -336,7 +337,7 @@ input[type="text"],
       font-size: 15px;
     }
     .descr{margin: auto;
-    font-size: 15px;}  
+    font-size: 15px;}
 
     .nomeartista{
       margin: auto;
@@ -377,4 +378,13 @@ input[type="text"],
       .grigliartisti4{display: block;
         margin: auto;}
 
+
+
+        .titolochisiamo{font-size: 24px;}
+        .contattaci{font-size: 24px;}
+        .chisiamodescr{font-size: 15px;
+        padding: 0;}
+        .contatti{font-size: 15px;
+        padding: 0;}
+          .socialicon{padding: 0;}
     }
