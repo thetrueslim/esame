@@ -14,18 +14,6 @@
   background:rgba(35, 33, 33, 1);
     }
 
-
-.sottotitolo{
-  max-width: 1000px;
-  color: rgba(241, 223, 188, 1); 
-  margin:auto; 
-  font-family: Helvetica, sans-serif;
-  text-align: center;
-  font-size: 30px;
-  padding-top: 1%;
-    }
-
-
 .contattaci{
   padding-top: 5%;  
   padding-left: 15%;
@@ -47,7 +35,7 @@
   text-align: center;
 }
 
-
+p{word-spacing: normal;}
 
 
 
@@ -69,7 +57,7 @@ padding-bottom: 5%;
 }
 
 .opere{
-  
+  margin: auto;
   padding-bottom: 50px;
   text-align:  center;
 }
@@ -86,7 +74,7 @@ font-family: helvetica, sans-serif;
   font-family: Helvetica, sans-serif;
   text-align: left;
   text-align: justify;
-  width: 50%;
+  width: 35%;
   margin: auto;
   padding-bottom: 100px;
 }
@@ -96,7 +84,7 @@ font-family: helvetica, sans-serif;
 .grigliartepovera{
   max-width: 600px;
   margin: auto;
-  padding-top: 100px;
+  padding-top: 20px;
   display:flex;
   flex-direction: row;
 }
@@ -108,8 +96,11 @@ font-family: helvetica, sans-serif;
 }
     
     .home1{
+    padding-top: 50px;
+    margin: auto;
     width: 100%;
     max-height: 800px;
+
 
     }
 
@@ -117,10 +108,10 @@ font-family: helvetica, sans-serif;
         font-size: 24px;
         font-family: Helvetica, sans-serif;
         text-align: left;
-        margin-top: 100px;
         text-align: justify;
-        width: 75%;
-        margin-left: 15%;
+        width: 50%;
+        padding-top: 100px;
+        margin: auto;
     }
 
 
@@ -219,6 +210,7 @@ font-family:Helvetica, sans-serif;
     font-size: 34px;
     font-family: Helvetica, sans-serif;
     text-align: center;
+    padding-top: 100px;
   }
 
 
@@ -277,12 +269,60 @@ ul.navbar li a {
 
 ul.navbar li a:hover {
     background-color: #555;
+
+}
+
+
+.titolonewsletter{
+  padding-top: 100px;
+  padding-bottom: 50px;
+  font-size: 34px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin: auto;
+}
+
+.descrnewsletter{
+  max-width: 800px;
+  font-size: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+  margin: auto;
 }
 
 
 
 
-  
+.formnews{
+  max-width: 1500px;  
+  padding-top: 100px;
+  font-size: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  padding-bottom: 100px;
+  margin: auto;
+}
+
+
+input[type="text"],
+        input[type="email"] {
+          background-color: rgba(241, 223, 188, 1); 
+            width: 50%;
+            height: 50px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+
+        input[type="submit"] {
+          background-color:rgba(241, 223, 188, 1); 
+          color: black;
+          padding: 10px 20px;
+          border: none;
+          border-radius: 5px;
+          cursor: pointer;
+      }
 
 
 @media only screen and (max-width: 1080px) {
@@ -297,14 +337,11 @@ ul.navbar li a:hover {
     }
     .descr{margin: auto;
     font-size: 15px;}  
-      
-
 
     .nomeartista{
       margin: auto;
       font-size: 24px;
     }
-
     .artist{
         margin: auto;
         display: block;
@@ -318,8 +355,7 @@ ul.navbar li a:hover {
         margin: auto;
         display: block;
       }
-
-
+  
       .sotto{margin: auto;
       display: block;}
       .grigliartepovera{
